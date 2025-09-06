@@ -9,7 +9,7 @@ export default function App() {
       <div className="min-h-screen bg-gray-50">
         <nav className="bg-green-600 text-white px-6 py-4 flex justify-between">
           <Link to="/" className="font-bold text-xl">Recipes</Link>
-          <Link to="/favorites" className="hover:underline">Favorites</Link>
+          <Link to="/favorites" className="hover:underline">Marked Lists</Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
